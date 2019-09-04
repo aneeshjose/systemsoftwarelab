@@ -112,20 +112,3 @@ void calcWtTat(struct FCFS fc[10])
     printf("Average WaitingTime:%d,Average TAT:%d",totalWt/lim,totalTat/lim);
     getch();
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
