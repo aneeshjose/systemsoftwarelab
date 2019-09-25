@@ -63,7 +63,7 @@ totalWt+=pr[0].wt;
 
 if(lim>0)
 for(i=1;i<lim;i++){
-pr[i].ct=pr[i-1].bt+pr[i].bt;
+pr[i].ct=pr[i-1].ct+pr[i].bt;
 pr[i].tat=pr[i].ct;
 pr[i].wt=pr[i-1].wt+pr[i].bt;
 
